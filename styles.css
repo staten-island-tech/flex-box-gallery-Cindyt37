@@ -12,12 +12,18 @@ h1,h6 {
   background: rgb(0, 31, 39);
   padding: 5px;
 }
-.parent {
+h2 {
   font-size: 30px;
+}
+.Games {
   display: flex;
-  justify-content: space-around;
+  width: 95vw;
+  justify-content: space-evenly;
 }
 .child {
-  border: 1px solid red;
-  width: 28%
+  border: 10px solid rgb(181, 255, 248);
+  margin-top: 20px;
+}
+.images {
+  width: 30%;
 }
