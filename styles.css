@@ -28,6 +28,7 @@ h2 {
 }
 .link {
   color: rgb(164, 148, 255);
+  width:fit-content;
 }
 .link:hover {
   color: rgb(50, 132, 255);
