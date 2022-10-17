@@ -5,10 +5,10 @@ html, body, * {
   color: rgb(187, 223, 255);
   background: rgb(0, 3, 51);
   font-family: 'Gemunu Libre', sans-serif;
+  text-align: center;
 }
 h1 {
-  text-align: center;
-  background: rgba(0, 87, 145, 0.459);
+  background: rgba(0, 65, 109, 0.788);
   padding: 20px;
   box-shadow: 10px 10px #7589ff98;
   font-family: 'Alkalami', serif;
@@ -21,12 +21,8 @@ h1 {
      #00ff80 68%,
      #258300 100%
    );
-   background-size: auto auto;
-   background-clip: border-box;
    background-size: 200% auto;
    color: #fff;
-   background-clip: text;
-   text-fill-color: transparent;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    animation: textclip 3s linear infinite;
@@ -36,7 +32,7 @@ h1 {
  
  @keyframes textclip {
    to {
-     background-position: 200% center;
+     background-position: 100% center;
    }
  }
 h2 {
@@ -71,9 +67,11 @@ h2:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   align-content: space-around;
-  width: 95vw;
+  width: 98.5vw;
   justify-content: space-around;
+  align-content: space-around;
 }
 .Child {
   margin-top: 20px;
