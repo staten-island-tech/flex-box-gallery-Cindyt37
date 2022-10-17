@@ -54,6 +54,7 @@ h2:hover {
   border-color: rgb(164, 148, 255);
   border-width: 3px;
   box-shadow: 3.5px 3.5px rgba(231, 238, 245, 0.342);
+  transition-duration: 1s;
 }
 .button:hover {
   color: rgb(57, 143, 255);
