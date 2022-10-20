@@ -37,7 +37,8 @@ h1 {
  }
 h2 {
   font-size: 40px;
-  color: #bbd6ff
+  color: #bbd6ff;
+  transition-duration: 0.5s;
 }
 h2:hover {
   font-size: 50px;
@@ -83,6 +84,23 @@ h2:hover {
   margin-bottom: 20px;
   box-shadow: 10px 10px #7589ff98;
 }
+.Child-2 {
+  position: relative;
+  width: 30%;
+}
+.Child-2 img.image-hover {
+  position: absolute;
+  left: 2;
+  right: 0;
+  top: 9;
+  bottom: 9;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.Child-2:hover img.image-hover {
+  opacity: 1;
+}
 .images {
   width: 100%;
   margin-bottom: 10px;
@@ -116,6 +134,9 @@ h2:hover {
 }
 .images:hover::after {
   opacity: 1;
+}
+#ABCYA-button {
+  
 }
 @media screem and (max-width: 1500px) {
   .Games{
