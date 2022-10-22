@@ -86,7 +86,7 @@ h2:hover {
 }
 .container {
   position: relative;
-  width: 30%;
+  width: 100%;
 }
 .image {
   display: block;
