@@ -89,10 +89,10 @@ h2:hover {
   width: 30%;
 }
 .Child-2 img.image-hover {
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 5;
+  top: 4;
   bottom: 0;
   object-fit: contain;
   opacity: 0;
