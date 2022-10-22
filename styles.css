@@ -101,7 +101,7 @@ h2:hover {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   transition: .7s ease;
   background: url(./img/cmg2.jpg);
   background-repeat: no-repeat;
