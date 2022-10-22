@@ -86,8 +86,8 @@ h2:hover {
 }
 .rollover {
   display: block;
-  width: 400px;
-  height: 300px;
+  width: 100px;
+  height: 75px;
   background: url(./img/cmg.jpg) no-repeat;
   -webkit-transition: all .7s ease-in-out;
   -moz-transition: all .7s ease-in-out;
