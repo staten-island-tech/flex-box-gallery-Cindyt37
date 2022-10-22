@@ -86,20 +86,34 @@ h2:hover {
 }
 .Child-2 {
   position: relative;
-  width: 30%;
+  width: 50%;
 }
-.image-main {
+#image-main {
+  display: block;
+  width: 100%;
+}
+#image-hover {
   position: absolute;
+  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  top: 1;
-  bottom: 0;
-  object-fit: contain;
+  height: 100%;
+  width: 100%;
   opacity: 0;
-  transition: opacity 1.5s;
+  object-fit: contain;
+  transition: .7s ease;
+  background-color: #339c57;
 }
-.Child-2:hover img.image-hover {
+.Child-2:hover .image-hover {
   opacity: 1;
+}
+#image-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .images {
   width: 100%;
