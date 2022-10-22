@@ -84,9 +84,10 @@ h2:hover {
   margin-bottom: 20px;
   box-shadow: 10px 10px #7589ff98;
 }
-.Child-2 {
+.rollover {
   display: block;
-  width: 100%;
+  width: 400px;
+  height: 300px;
   background: url(./img/cmg.jpg) no-repeat;
   -webkit-transition: all .7s ease-in-out;
   -moz-transition: all .7s ease-in-out;
@@ -94,7 +95,7 @@ h2:hover {
   transition: all .7s ease-in-out;
 }
 
-.Child-2:hover {
+.rollover:hover {
   background: url(./img/cmg.jpg)
 }
 .images {
