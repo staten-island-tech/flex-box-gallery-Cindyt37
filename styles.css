@@ -84,14 +84,14 @@ h2:hover {
   margin-bottom: 20px;
   box-shadow: 10px 10px #7589ff98;
 }
-.Child-2 {
+.container {
   position: relative;
-  width: 100%;
+  width: 30%;
 }
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  background: url(https://cindycssflexbox.netlify.app/img/cmg.jpg)
 }
 .overlay {
   position: absolute;
@@ -103,19 +103,10 @@ h2:hover {
   width: 100%;
   opacity: 0;
   transition: .7s ease;
-  background: url(./img/cmg2.jpg);
-  background-repeat: no-repeat;
+  background: url(https://cindycssflexbox.netlify.app/img/cmg2.jpg)
 }
-.Child-2:hover .overlay {
+.container:hover .overlay {
   opacity: 1;
-}
-.image-hover{
-  position: absolute;
-  top: 100%;
-  left: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 .images {
   width: 100%;
