@@ -93,7 +93,7 @@ h2:hover {
   left: 0;
   right: 0;
   top: 4;
-  bottom: 0;
+  bottom: 4;
   object-fit: contain;
   opacity: 0;
   transition: opacity 1.5s;
