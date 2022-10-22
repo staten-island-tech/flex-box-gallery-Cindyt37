@@ -103,7 +103,8 @@ h2:hover {
   width: 100%;
   opacity: 0;
   transition: .7s ease;
-  background: url(./img/cmg2.jpg) no repeat
+  background: url(./img/cmg2.jpg);
+  background-repeat: no-repeat;
 }
 .Child-2:hover .overlay {
   opacity: 1;
