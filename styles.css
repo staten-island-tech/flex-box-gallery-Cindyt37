@@ -92,7 +92,7 @@ h2:hover {
   position: absolute;
   left: 0;
   right: 0;
-  top: 2;
+  top: 10;
   bottom: 0;
   object-fit: contain;
   opacity: 0;
