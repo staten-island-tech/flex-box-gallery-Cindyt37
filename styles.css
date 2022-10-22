@@ -88,11 +88,11 @@ h2:hover {
   position: relative;
   width: 30%;
 }
-.image-hover {
+.Child-2 img.image-hover {
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
+  top: 1;
   bottom: 0;
   object-fit: contain;
   opacity: 0;
@@ -100,9 +100,6 @@ h2:hover {
 }
 .Child-2:hover img.image-hover {
   opacity: 1;
-}
-.Child-2:hover img.image-main {
-  opacity: 0;
 }
 .images {
   width: 100%;
