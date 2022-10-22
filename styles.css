@@ -84,19 +84,22 @@ h2:hover {
   margin-bottom: 20px;
   box-shadow: 10px 10px #7589ff98;
 }
-.rollover {
-  display: block;
-  width: 100px;
-  height: 75px;
-  background: url(./img/cmg.jpg) no-repeat;
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition: all .7s ease-in-out;
-  -o-transition: all .7s ease-in-out;
-  transition: all .7s ease-in-out;
+.Child-2 {
+  position: relative;
+  width: 30%;
 }
-
-.rollover:hover {
-  background: url(./img/cmg.jpg)
+.image-main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.Child-2:hover img.image-hover {
+  opacity: 1;
 }
 .images {
   width: 100%;
