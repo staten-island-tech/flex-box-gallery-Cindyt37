@@ -91,7 +91,8 @@ h2:hover {
 .image {
   display: block;
   width: 100%;
-  background: url(https://cindycssflexbox.netlify.app/img/cmg.jpg)
+  background: url(https://cindycssflexbox.netlify.app/img/cmg.jpg);
+  margin-bottom: 10px;
 }
 .overlay {
   position: absolute;
