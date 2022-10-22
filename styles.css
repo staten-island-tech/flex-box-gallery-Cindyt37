@@ -86,9 +86,7 @@ h2:hover {
 }
 .Child-2 {
   display: block;
-  margin-top: 10px;
-  width: 400px;
-  height: 300px;
+  width: 100%;
   background: url(./img/cmg.jpg) no-repeat;
   -webkit-transition: all .7s ease-in-out;
   -moz-transition: all .7s ease-in-out;
