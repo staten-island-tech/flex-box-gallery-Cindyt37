@@ -101,6 +101,9 @@ h2:hover {
 .Child-2:hover img.image-hover {
   opacity: 1;
 }
+.Child-2:hover img.image-main {
+  opacity: 0;
+}
 .images {
   width: 100%;
   margin-bottom: 10px;
