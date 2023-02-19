@@ -218,7 +218,7 @@ h2:hover {
   --color: rgb(57, 143, 255);
   --hover: #b8cbff;
 }
-@media screem and (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
   .Games{
     flex-direction: row;
   }
